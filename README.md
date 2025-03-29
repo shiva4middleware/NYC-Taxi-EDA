@@ -11,14 +11,17 @@ This project performs **Exploratory Data Analysis (EDA)** on NYC Taxi trip data.
 - **Geospatial Analysis**: Mapping trips per zone using NYC Taxi Zones shapefile.
 
 ## Project Structure
-NNYC_Taxi_EDA/
-│-- data/ # Dataset and shapefiles (not included in repo) 
-│-- notebooks/ # Jupyter Notebooks for analysis
-│-- scripts/ # Python scripts for EDA and visualization 
-│-- results/ # Output plots and summary reports 
-│-- README.md # Project documentation
-│-- requirements.txt # Dependencies 
-│-- eda_analysis.py # Main EDA script
+```
+NYC_Taxi_EDA/
+├── data/                      # Dataset and shapefiles (not included in repo)
+├── notebooks/                 # Jupyter Notebooks for analysis
+├── scripts/                   # Python scripts for EDA and visualization
+├── results/                   # Output plots and summary reports
+├── README.md                  # Project documentation
+├── requirements.txt           # Dependencies
+└── eda_analysis.py            # Main EDA script
+```
+
 
 ## Installation
 1. Clone the repository:
